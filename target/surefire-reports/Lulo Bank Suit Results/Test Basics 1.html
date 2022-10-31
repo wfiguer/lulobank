@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test Basics 1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Basics 1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 30 20:57:12 COT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15251 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.lulobank.AppTest.createNewUser()'><b>createNewUser</b><br>Test class: com.lulobank.AppTest<br/>
+<a href="#Output-454256192" onClick='toggleBox("Output-454256192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-454256192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-454256192">
+Status: 200<br/>
+created id: 635f2b7b1c1b163e201d663f<br/>
+created firstName: Sigrid<br/>
+created lastName: Wehner<br/>
+created email: mateo.reinger@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.lulobank.AppTest@505fc5a4</td></tr>
+<tr>
+<td title='com.lulobank.AppTest.deleteUser()'><b>deleteUser</b><br>Test class: com.lulobank.AppTest<br/>
+<a href="#Output-1972965662" onClick='toggleBox("Output-1972965662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1972965662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1972965662">
+Status: 200<br/>
+Deleted Id: 635f2b7b1c1b163e201d663f<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.lulobank.AppTest@505fc5a4</td></tr>
+<tr>
+<td title='com.lulobank.AppTest.getUser()'><b>getUser</b><br>Test class: com.lulobank.AppTest<br/>
+<a href="#Output-1622083762" onClick='toggleBox("Output-1622083762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1622083762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1622083762">
+Status: 200<br/>
+id: [635ef49c836fe40df94803e5, 635f199d836fe42930480a2c, 635f19ca836fe49e8e480a2f, 635f1cc4836fe48304480ae3, 635f1ce5836fe4f07c480ae6, 635f1d06836fe496c9480aee, 635f1dab836fe45f3c480b3f, 635f1dfb836fe4a87f480b47, 635f1e1b836fe4cef2480b50, 635f2a401718fd08c10ac993, 635f2ae7227f78bb48c5d0ce, 635f2b0aaccd5b1d5eb753c5, 635f2b7b1c1b163e201d663f]<br/>
+first Name: [William, Marcos, Zachery, Loy, Johnathan, Hilma, Kiel, Marshall, Deshawn2, Angelo, Lavina, Harold, Sigrid]<br/>
+last Name: [Figueroa, Balistreri, Ferry, Bahringer, McKenzie, Kreiger, Donnelly, Klocko, Koepp2, Pfeffer, Mueller, Shanahan, Wehner]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.lulobank.AppTest@505fc5a4</td></tr>
+<tr>
+<td title='com.lulobank.AppTest.modifyUser()'><b>modifyUser</b><br>Test class: com.lulobank.AppTest<br/>
+<a href="#Output-1899814241" onClick='toggleBox("Output-1899814241", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1899814241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1899814241">
+Status: 200<br/>
+Modified First Name: Ila<br/>
+Modified Last Name: Hartmann<br/>
+Updated At: 2022-10-31T01:57:22.761Z<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.lulobank.AppTest@505fc5a4</td></tr>
+</table><p>
+</body>
+</html>

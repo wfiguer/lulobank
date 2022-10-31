@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.809" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\Acer\Documents\Projects\lulobank\target\test-classes;c:\Users\Acer\Documents\Projects\lulobank\target\classes;C:\Users\Acer\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Acer\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\Acer\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Acer\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Acer\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Acer\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Acer\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Acer\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Acer\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Acer\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Acer\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Acer\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Acer\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Acer\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Acer\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Acer\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Acer\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Acer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Acer\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Acer\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Acer\AppData\Local\Temp\surefire4655412788885540874\surefirebooter-20221030205711841_3.jar C:\Users\Acer\AppData\Local\Temp\surefire4655412788885540874 2022-10-30T20-57-11_498-jvmRun1 surefire-20221030205711841_1tmp surefire_0-20221030205711841_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="c:\Users\Acer\Documents\Projects\lulobank\target\test-classes;c:\Users\Acer\Documents\Projects\lulobank\target\classes;C:\Users\Acer\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Acer\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\Acer\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Acer\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Acer\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Acer\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Acer\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Acer\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Acer\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Acer\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Acer\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Acer\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Acer\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Acer\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Acer\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Acer\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Acer\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Acer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Acer\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Acer\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Acer"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="c:\Users\Acer\Documents\Projects\lulobank"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Acer\AppData\Local\Temp\surefire4655412788885540874\surefirebooter-20221030205711841_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="Acer"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.16+8"/>
+    <property name="localRepository" value="C:\Users\Acer\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Acer\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="c:\Users\Acer\Documents\Projects\lulobank"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Micro Focus\UFT One\bin;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Acer\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createNewUser" classname="com.lulobank.AppTest" time="4.719">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://dummyapi.io/data/v1/user/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app-id=635ef27ac606a25734734e5f
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Sigrid",
+    "lastName": "Wehner",
+    "email": "mateo.reinger@gmail.com"
+}
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 191
+Access-Control-Allow-Origin: *
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Etag: W/"bf-gPw6vMNUYkCq+/EXaksnu2V04Oc"
+Function-Execution-Id: on33jky0yyy2
+Server: Google Frontend
+Strict-Transport-Security: max-age=31556926
+X-Cloud-Trace-Context: 5bc224afa012548be9b9d42b7b8552a4
+X-Country-Code: CO
+Accept-Ranges: bytes
+Date: Mon, 31 Oct 2022 01:57:16 GMT
+X-Served-By: cache-bog2260036-BOG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1667181434.225581,VS0,VE2611
+Vary: cookie,need-authorization, x-fh-requested-host, accept-encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+{
+    "id": "635f2b7b1c1b163e201d663f",
+    "firstName": "Sigrid",
+    "lastName": "Wehner",
+    "email": "mateo.reinger@gmail.com",
+    "registerDate": "2022-10-31T01:57:15.763Z",
+    "updatedDate": "2022-10-31T01:57:15.763Z"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getUser" classname="com.lulobank.AppTest" time="3.489">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dummyapi.io/data/v1/user/?id=635f2b7b1c1b163e201d663f&created=635f2b7b1c1b163e201d663f
+Proxy:			<none>
+Request params:	id=635f2b7b1c1b163e201d663f
+				created=635f2b7b1c1b163e201d663f
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app-id=635ef27ac606a25734734e5f
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1036
+Access-Control-Allow-Origin: *
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Etag: W/"40c-ZJLr94vBHbnuMLhWxIIZjyJmgwc"
+Function-Execution-Id: v1ixv1bmonip
+Server: Google Frontend
+Strict-Transport-Security: max-age=31556926
+X-Cloud-Trace-Context: f38c7c8707d5cd36f6d2cb70a7f2380d
+X-Country-Code: CO
+Accept-Ranges: bytes
+Date: Mon, 31 Oct 2022 01:57:20 GMT
+X-Served-By: cache-bog2260020-BOG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1667181437.486330,VS0,VE3322
+Vary: cookie,need-authorization, x-fh-requested-host, accept-encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+{
+    "data": [
+        {
+            "id": "635ef49c836fe40df94803e5",
+            "firstName": "William",
+            "lastName": "Figueroa"
+        },
+        {
+            "id": "635f199d836fe42930480a2c",
+            "firstName": "Marcos",
+            "lastName": "Balistreri"
+        },
+        {
+            "id": "635f19ca836fe49e8e480a2f",
+            "firstName": "Zachery",
+            "lastName": "Ferry"
+        },
+        {
+            "id": "635f1cc4836fe48304480ae3",
+            "firstName": "Loy",
+            "lastName": "Bahringer"
+        },
+        {
+            "id": "635f1ce5836fe4f07c480ae6",
+            "firstName": "Johnathan",
+            "lastName": "McKenzie"
+        },
+        {
+            "id": "635f1d06836fe496c9480aee",
+            "firstName": "Hilma",
+            "lastName": "Kreiger"
+        },
+        {
+            "id": "635f1dab836fe45f3c480b3f",
+            "firstName": "Kiel",
+            "lastName": "Donnelly"
+        },
+        {
+            "id": "635f1dfb836fe4a87f480b47",
+            "firstName": "Marshall",
+            "lastName": "Klocko"
+        },
+        {
+            "id": "635f1e1b836fe4cef2480b50",
+            "firstName": "Deshawn2",
+            "lastName": "Koepp2"
+        },
+        {
+            "id": "635f2a401718fd08c10ac993",
+            "firstName": "Angelo",
+            "lastName": "Pfeffer"
+        },
+        {
+            "id": "635f2ae7227f78bb48c5d0ce",
+            "firstName": "Lavina",
+            "lastName": "Mueller"
+        },
+        {
+            "id": "635f2b0aaccd5b1d5eb753c5",
+            "firstName": "Harold",
+            "lastName": "Shanahan"
+        },
+        {
+            "id": "635f2b7b1c1b163e201d663f",
+            "firstName": "Sigrid",
+            "lastName": "Wehner"
+        }
+    ],
+    "total": 13,
+    "page": 0,
+    "limit": 20
+}
+]]></system-out>
+  </testcase>
+  <testcase name="modifyUser" classname="com.lulobank.AppTest" time="3.029">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://dummyapi.io/data/v1/user/635f2b7b1c1b163e201d663f
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app-id=635ef27ac606a25734734e5f
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Ila",
+    "lastName": "Hartmann"
+}
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 190
+Access-Control-Allow-Origin: *
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Etag: W/"be-XrF/a52/K//N+XUNe2yhwsDKyE0"
+Function-Execution-Id: h1wz55xp5j7r
+Server: Google Frontend
+Strict-Transport-Security: max-age=31556926
+X-Cloud-Trace-Context: fd3ff0c29f323133522f5043eddf5ffd
+X-Country-Code: CO
+Accept-Ranges: bytes
+Date: Mon, 31 Oct 2022 01:57:23 GMT
+X-Served-By: cache-bog2260024-BOG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1667181441.053098,VS0,VE2779
+Vary: cookie,need-authorization, x-fh-requested-host, accept-encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+{
+    "id": "635f2b7b1c1b163e201d663f",
+    "firstName": "Ila",
+    "lastName": "Hartmann",
+    "email": "mateo.reinger@gmail.com",
+    "registerDate": "2022-10-31T01:57:15.763Z",
+    "updatedDate": "2022-10-31T01:57:22.761Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser" classname="com.lulobank.AppTest" time="3.97">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://dummyapi.io/data/v1/user/635f2b7b1c1b163e201d663f
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		app-id=635ef27ac606a25734734e5f
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 33
+Access-Control-Allow-Origin: *
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Etag: W/"21-6wDdXXgjn1BHlZz40OUJKTZH0S4"
+Function-Execution-Id: m4s5lk5klwc1
+Server: Google Frontend
+Strict-Transport-Security: max-age=31556926
+X-Cloud-Trace-Context: 02f2d13fe64262b2bc7484eee9bcce27
+X-Country-Code: CO
+Accept-Ranges: bytes
+Date: Mon, 31 Oct 2022 01:57:27 GMT
+X-Served-By: cache-bog2260035-BOG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1667181444.970791,VS0,VE3869
+Vary: cookie,need-authorization, x-fh-requested-host, accept-encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+{
+    "id": "635f2b7b1c1b163e201d663f"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

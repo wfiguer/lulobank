@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Status: 200]]>
+    </line>
+    <line>
+      <![CDATA[created id: 635f2b7b1c1b163e201d663f]]>
+    </line>
+    <line>
+      <![CDATA[created firstName: Sigrid]]>
+    </line>
+    <line>
+      <![CDATA[created lastName: Wehner]]>
+    </line>
+    <line>
+      <![CDATA[created email: mateo.reinger@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Status: 200]]>
+    </line>
+    <line>
+      <![CDATA[id: [635ef49c836fe40df94803e5, 635f199d836fe42930480a2c, 635f19ca836fe49e8e480a2f, 635f1cc4836fe48304480ae3, 635f1ce5836fe4f07c480ae6, 635f1d06836fe496c9480aee, 635f1dab836fe45f3c480b3f, 635f1dfb836fe4a87f480b47, 635f1e1b836fe4cef2480b50, 635f2a401718fd08c10ac993, 635f2ae7227f78bb48c5d0ce, 635f2b0aaccd5b1d5eb753c5, 635f2b7b1c1b163e201d663f]]]>
+    </line>
+    <line>
+      <![CDATA[first Name: [William, Marcos, Zachery, Loy, Johnathan, Hilma, Kiel, Marshall, Deshawn2, Angelo, Lavina, Harold, Sigrid]]]>
+    </line>
+    <line>
+      <![CDATA[last Name: [Figueroa, Balistreri, Ferry, Bahringer, McKenzie, Kreiger, Donnelly, Klocko, Koepp2, Pfeffer, Mueller, Shanahan, Wehner]]]>
+    </line>
+    <line>
+      <![CDATA[Status: 200]]>
+    </line>
+    <line>
+      <![CDATA[Modified First Name: Ila]]>
+    </line>
+    <line>
+      <![CDATA[Modified Last Name: Hartmann]]>
+    </line>
+    <line>
+      <![CDATA[Updated At: 2022-10-31T01:57:22.761Z]]>
+    </line>
+    <line>
+      <![CDATA[Status: 200]]>
+    </line>
+    <line>
+      <![CDATA[Deleted Id: 635f2b7b1c1b163e201d663f]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-30T20:57:12 COT" name="Lulo Bank Suit Results" finished-at="2022-10-30T20:57:27 COT" duration-ms="15251">
+    <groups>
+    </groups>
+    <test started-at="2022-10-30T20:57:12 COT" name="Test Basics 1" finished-at="2022-10-30T20:57:27 COT" duration-ms="15251">
+      <class name="com.lulobank.AppTest">
+        <test-method signature="createNewUser()[pri:1, instance:com.lulobank.AppTest@505fc5a4]" started-at="2022-10-30T20:57:12 COT" name="createNewUser" finished-at="2022-10-30T20:57:17 COT" duration-ms="4718" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: 200]]>
+            </line>
+            <line>
+              <![CDATA[created id: 635f2b7b1c1b163e201d663f]]>
+            </line>
+            <line>
+              <![CDATA[created firstName: Sigrid]]>
+            </line>
+            <line>
+              <![CDATA[created lastName: Wehner]]>
+            </line>
+            <line>
+              <![CDATA[created email: mateo.reinger@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="getUser()[pri:2, instance:com.lulobank.AppTest@505fc5a4]" started-at="2022-10-30T20:57:17 COT" name="getUser" finished-at="2022-10-30T20:57:20 COT" duration-ms="3478" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: 200]]>
+            </line>
+            <line>
+              <![CDATA[id: [635ef49c836fe40df94803e5, 635f199d836fe42930480a2c, 635f19ca836fe49e8e480a2f, 635f1cc4836fe48304480ae3, 635f1ce5836fe4f07c480ae6, 635f1d06836fe496c9480aee, 635f1dab836fe45f3c480b3f, 635f1dfb836fe4a87f480b47, 635f1e1b836fe4cef2480b50, 635f2a401718fd08c10ac993, 635f2ae7227f78bb48c5d0ce, 635f2b0aaccd5b1d5eb753c5, 635f2b7b1c1b163e201d663f]]]>
+            </line>
+            <line>
+              <![CDATA[first Name: [William, Marcos, Zachery, Loy, Johnathan, Hilma, Kiel, Marshall, Deshawn2, Angelo, Lavina, Harold, Sigrid]]]>
+            </line>
+            <line>
+              <![CDATA[last Name: [Figueroa, Balistreri, Ferry, Bahringer, McKenzie, Kreiger, Donnelly, Klocko, Koepp2, Pfeffer, Mueller, Shanahan, Wehner]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="modifyUser()[pri:3, instance:com.lulobank.AppTest@505fc5a4]" started-at="2022-10-30T20:57:20 COT" name="modifyUser" finished-at="2022-10-30T20:57:23 COT" duration-ms="3040" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: 200]]>
+            </line>
+            <line>
+              <![CDATA[Modified First Name: Ila]]>
+            </line>
+            <line>
+              <![CDATA[Modified Last Name: Hartmann]]>
+            </line>
+            <line>
+              <![CDATA[Updated At: 2022-10-31T01:57:22.761Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method signature="deleteUser()[pri:4, instance:com.lulobank.AppTest@505fc5a4]" started-at="2022-10-30T20:57:23 COT" name="deleteUser" finished-at="2022-10-30T20:57:27 COT" duration-ms="3968" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: 200]]>
+            </line>
+            <line>
+              <![CDATA[Deleted Id: 635f2b7b1c1b163e201d663f]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.lulobank.AppTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Lulo Bank Suit Results -->
+</testng-results>
